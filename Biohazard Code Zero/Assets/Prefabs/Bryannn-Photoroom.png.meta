@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 519d87f1b7dbd87448deaf556383c132
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5952543066219618143
+    second: Bryannn-Photoroom_0
+  - first:
+      213: -8644489718045851859
+    second: Bryannn-Photoroom_1
+  - first:
+      213: -5149378912791340821
+    second: Bryannn-Photoroom_2
+  - first:
+      213: 7130919885064216637
+    second: Bryannn-Photoroom_3
+  - first:
+      213: 3411057173585702022
+    second: Bryannn-Photoroom_4
+  - first:
+      213: -8148251859861602169
+    second: Bryannn-Photoroom_5
+  - first:
+      213: -4524995268153462128
+    second: Bryannn-Photoroom_6
+  - first:
+      213: 1804548529266261878
+    second: Bryannn-Photoroom_7
+  - first:
+      213: -6120895112288360263
+    second: Bryannn-Photoroom_8
+  - first:
+      213: 7997807028773349203
+    second: Bryannn-Photoroom_9
+  - first:
+      213: 7852424378495529374
+    second: Bryannn-Photoroom_10
+  - first:
+      213: -6328234742026886208
+    second: Bryannn-Photoroom_11
+  - first:
+      213: 8664867342206514468
+    second: Bryannn-Photoroom_12
+  - first:
+      213: 4363465782875633161
+    second: Bryannn-Photoroom_13
+  - first:
+      213: 5289299980038586946
+    second: Bryannn-Photoroom_14
+  - first:
+      213: 110587999985316987
+    second: Bryannn-Photoroom_15
+  - first:
+      213: 3783464936011888452
+    second: Bryannn-Photoroom_16
+  - first:
+      213: -7255893757356525279
+    second: Bryannn-Photoroom_17
+  - first:
+      213: -7696132264563739356
+    second: Bryannn-Photoroom_18
+  - first:
+      213: 2251541877681452126
+    second: Bryannn-Photoroom_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 175
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 781
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0e3c38e91546da0800000000000000
+      internalID: -5952543066219618143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 781
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f3c53e66a980880800000000000000
+      internalID: -8644489718045851859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 781
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be85f21592bb988b0800000000000000
+      internalID: -5149378912791340821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 781
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30a50faadd16f260800000000000000
+      internalID: 7130919885064216637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 781
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68caf144d62865f20800000000000000
+      internalID: 3411057173585702022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 530
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7808880da189bee80800000000000000
+      internalID: -8148251859861602169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 530
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092b36f27ccf331c0800000000000000
+      internalID: -4524995268153462128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 530
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f7ed2935b0b0910800000000000000
+      internalID: 1804548529266261878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 530
+        width: 117
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8a0a443563e0ba0800000000000000
+      internalID: -6120895112288360263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 530
+        width: 122
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35768245e1bedfe60800000000000000
+      internalID: 7997807028773349203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 270
+        width: 117
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91f7d94e5a69fc60800000000000000
+      internalID: 7852424378495529374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 269
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3a332d7089d28a0800000000000000
+      internalID: -6328234742026886208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 269
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4253a1670facf3870800000000000000
+      internalID: 8664867342206514468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 269
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906bfd9c2052e8c30800000000000000
+      internalID: 4363465782875633161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 269
+        width: 117
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2424ea4de4e576940800000000000000
+      internalID: 5289299980038586946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 159
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74bb873333e88100800000000000000
+      internalID: 110587999985316987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 14
+        width: 117
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447722b4051918430800000000000000
+      internalID: 3783464936011888452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 14
+        width: 117
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1293ac03213ed4b90800000000000000
+      internalID: -7255893757356525279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 14
+        width: 117
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42571423b78d13590800000000000000
+      internalID: -7696132264563739356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bryannn-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 14
+        width: 112
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e547e1898651f3f10800000000000000
+      internalID: 2251541877681452126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bryannn-Photoroom_0: -5952543066219618143
+      Bryannn-Photoroom_1: -8644489718045851859
+      Bryannn-Photoroom_10: 7852424378495529374
+      Bryannn-Photoroom_11: -6328234742026886208
+      Bryannn-Photoroom_12: 8664867342206514468
+      Bryannn-Photoroom_13: 4363465782875633161
+      Bryannn-Photoroom_14: 5289299980038586946
+      Bryannn-Photoroom_15: 110587999985316987
+      Bryannn-Photoroom_16: 3783464936011888452
+      Bryannn-Photoroom_17: -7255893757356525279
+      Bryannn-Photoroom_18: -7696132264563739356
+      Bryannn-Photoroom_19: 2251541877681452126
+      Bryannn-Photoroom_2: -5149378912791340821
+      Bryannn-Photoroom_3: 7130919885064216637
+      Bryannn-Photoroom_4: 3411057173585702022
+      Bryannn-Photoroom_5: -8148251859861602169
+      Bryannn-Photoroom_6: -4524995268153462128
+      Bryannn-Photoroom_7: 1804548529266261878
+      Bryannn-Photoroom_8: -6120895112288360263
+      Bryannn-Photoroom_9: 7997807028773349203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

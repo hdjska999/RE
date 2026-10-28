@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: dff487532abf30149b6dbe9993c03190
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5583123660969039946
+    second: Lyccan_0
+  - first:
+      213: -7866352167629627951
+    second: Lyccan_1
+  - first:
+      213: -1391293582663659203
+    second: Lyccan_2
+  - first:
+      213: -8746899329103468827
+    second: Lyccan_3
+  - first:
+      213: 8688330747343838238
+    second: Lyccan_4
+  - first:
+      213: -7225221726224267193
+    second: Lyccan_5
+  - first:
+      213: 4125764826137791876
+    second: Lyccan_6
+  - first:
+      213: -3156057098066274994
+    second: Lyccan_7
+  - first:
+      213: -2095710801841921204
+    second: Lyccan_8
+  - first:
+      213: 7320367170235991069
+    second: Lyccan_9
+  - first:
+      213: 1511749985858055920
+    second: Lyccan_10
+  - first:
+      213: 783280319195790453
+    second: Lyccan_11
+  - first:
+      213: -5144422430297022397
+    second: Lyccan_12
+  - first:
+      213: -2584072067521773730
+    second: Lyccan_13
+  - first:
+      213: 2658766097488035282
+    second: Lyccan_14
+  - first:
+      213: -801365104396888387
+    second: Lyccan_15
+  - first:
+      213: -2962493405452077028
+    second: Lyccan_16
+  - first:
+      213: 2539545760472437204
+    second: Lyccan_17
+  - first:
+      213: 6899401857773768934
+    second: Lyccan_18
+  - first:
+      213: 1598751900671228717
+    second: Lyccan_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lyccan_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 441
+        width: 85
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a485325936d3b7d40800000000000000
+      internalID: 5583123660969039946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 441
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dddf4a916a15d290800000000000000
+      internalID: -7866352167629627951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 441
+        width: 74
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d315d03abd121bce0800000000000000
+      internalID: -1391293582663659203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 441
+        width: 75
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e66faa3765cc9680800000000000000
+      internalID: -8746899329103468827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 441
+        width: 79
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c988e28c6239870800000000000000
+      internalID: 8688330747343838238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 299
+        width: 73
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748c7f0fe1bdabb90800000000000000
+      internalID: -7225221726224267193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 299
+        width: 67
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d8eb80049a14930800000000000000
+      internalID: 4125764826137791876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 299
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45d8e27ace6334d0800000000000000
+      internalID: -3156057098066274994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 299
+        width: 71
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c436348112a8ae2e0800000000000000
+      internalID: -2095710801841921204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 299
+        width: 76
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d140957082b279560800000000000000
+      internalID: 7320367170235991069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe65404a90daf410800000000000000
+      internalID: 1511749985858055920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 78
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c3831ec45ceda00800000000000000
+      internalID: 783280319195790453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 152
+        width: 68
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34028935e075b98b0800000000000000
+      internalID: -5144422430297022397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 152
+        width: 88
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ffa554528832cd0800000000000000
+      internalID: -2584072067521773730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 152
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd30adcda5d5e420800000000000000
+      internalID: 2658766097488035282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 82
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db69701feaaf0e4f0800000000000000
+      internalID: -801365104396888387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 8
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18779691fb13e6d0800000000000000
+      internalID: -2962493405452077028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 8
+        width: 68
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d11fcff9674e3320800000000000000
+      internalID: 2539545760472437204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 8
+        width: 73
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0964f5f699fbf50800000000000000
+      internalID: 6899401857773768934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lyccan_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 8
+        width: 81
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b3d731268ef2610800000000000000
+      internalID: 1598751900671228717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lyccan_0: 5583123660969039946
+      Lyccan_1: -7866352167629627951
+      Lyccan_10: 1511749985858055920
+      Lyccan_11: 783280319195790453
+      Lyccan_12: -5144422430297022397
+      Lyccan_13: -2584072067521773730
+      Lyccan_14: 2658766097488035282
+      Lyccan_15: -801365104396888387
+      Lyccan_16: -2962493405452077028
+      Lyccan_17: 2539545760472437204
+      Lyccan_18: 6899401857773768934
+      Lyccan_19: 1598751900671228717
+      Lyccan_2: -1391293582663659203
+      Lyccan_3: -8746899329103468827
+      Lyccan_4: 8688330747343838238
+      Lyccan_5: -7225221726224267193
+      Lyccan_6: 4125764826137791876
+      Lyccan_7: -3156057098066274994
+      Lyccan_8: -2095710801841921204
+      Lyccan_9: 7320367170235991069
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
