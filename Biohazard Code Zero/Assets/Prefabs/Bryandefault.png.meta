@@ -127,19 +127,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -164,7 +151,7 @@ TextureImporter:
         width: 70
         height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -186,7 +173,7 @@ TextureImporter:
         width: 67
         height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -208,7 +195,7 @@ TextureImporter:
         width: 68
         height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -230,7 +217,7 @@ TextureImporter:
         width: 68
         height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,7 +239,7 @@ TextureImporter:
         width: 70
         height: 121
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,7 +261,7 @@ TextureImporter:
         width: 70
         height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,7 +283,7 @@ TextureImporter:
         width: 69
         height: 125
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -318,7 +305,7 @@ TextureImporter:
         width: 71
         height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -340,7 +327,7 @@ TextureImporter:
         width: 68
         height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -362,7 +349,7 @@ TextureImporter:
         width: 70
         height: 122
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,11 +367,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 23
-        y: 152
-        width: 71
-        height: 130
+        y: 0
+        width: 386
+        height: 282
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,209 +384,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Bryandefault_11
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 153
-        width: 73
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e766768932c8924099cfc9d0048c2b5
-      internalID: -1222890619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_12
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 154
-        width: 70
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa65f54d5a4ee604b9165f6b1d34f771
-      internalID: -713629760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_13
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 154
-        width: 69
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 571f0e6eb642f8743b97b5cafb651310
-      internalID: -1718052526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_14
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 154
-        width: 77
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68c92448435d0b548b3fe2ae1bbb60a3
-      internalID: -1144108493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_15
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 8
-        width: 71
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1c66bfe329cdc947ad6faa3dc48b3d2
-      internalID: -905360350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_16
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 7
-        width: 71
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 970482fe9b80cd44f9ecc4f2d35e54fa
-      internalID: -2048904726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_17
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 8
-        width: 68
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b973e91f2f09f0d43b0267a968a5dadc
-      internalID: 2086352948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_18
-      rect:
-        serializedVersion: 2
-        x: 253
-        y: 8
-        width: 69
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: feadfe0c7c32e6048920e721fe6b10d8
-      internalID: 1114041331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bryandefault_19
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 8
-        width: 72
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5167b29b17f4704d8375f20c826b486
-      internalID: -803386131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb6c8f1558a25164bbd8da4daad9451e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -612,15 +401,6 @@ TextureImporter:
       Bryandefault_0: 6689998122823152264
       Bryandefault_1: 6664283427193368314
       Bryandefault_10: -8345083086797633221
-      Bryandefault_11: -1222890619
-      Bryandefault_12: -713629760
-      Bryandefault_13: -1718052526
-      Bryandefault_14: -1144108493
-      Bryandefault_15: -905360350
-      Bryandefault_16: -2048904726
-      Bryandefault_17: 2086352948
-      Bryandefault_18: 1114041331
-      Bryandefault_19: -803386131
       Bryandefault_2: -1694613689701371712
       Bryandefault_3: -4539595758981468970
       Bryandefault_4: 6489515700654514313

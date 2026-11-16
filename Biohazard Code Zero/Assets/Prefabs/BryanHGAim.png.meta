@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: fb70bbc8b2f40c247af76fcad4d827d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5792609791933118659
+    second: BryanHGAim_0
+  - first:
+      213: 5360112514003748549
+    second: BryanHGAim_1
+  - first:
+      213: 5852896121706686342
+    second: BryanHGAim_2
+  - first:
+      213: 4335504809741661750
+    second: BryanHGAim_3
+  - first:
+      213: 4993869366228057363
+    second: BryanHGAim_4
+  - first:
+      213: 4042749078655055743
+    second: BryanHGAim_5
+  - first:
+      213: 3413794461551185069
+    second: BryanHGAim_6
+  - first:
+      213: 988687796072946871
+    second: BryanHGAim_7
+  - first:
+      213: 1015445511847699744
+    second: BryanHGAim_8
+  - first:
+      213: 3761955157335132166
+    second: BryanHGAim_9
+  - first:
+      213: -6856946766151368401
+    second: BryanHGAim_10
+  - first:
+      213: -4066187772784233021
+    second: BryanHGAim_11
+  - first:
+      213: 1704043659356043849
+    second: BryanHGAim_12
+  - first:
+      213: 4614454013265367854
+    second: BryanHGAim_13
+  - first:
+      213: -5663144469166973537
+    second: BryanHGAim_14
+  - first:
+      213: -1125707388805375265
+    second: BryanHGAim_15
+  - first:
+      213: 7766596748236741034
+    second: BryanHGAim_16
+  - first:
+      213: -6372297696870230621
+    second: BryanHGAim_17
+  - first:
+      213: -8394360046787656220
+    second: BryanHGAim_18
+  - first:
+      213: 4535678530015576609
+    second: BryanHGAim_19
+  - first:
+      213: 8641408919723405181
+    second: BryanHGAim_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BryanHGAim_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 341
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c87f9a4aeb736050800000000000000
+      internalID: 5792609791933118659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 349
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6c151bee1f26a40800000000000000
+      internalID: 5360112514003748549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 320
+        width: 45
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687a691430aa93150800000000000000
+      internalID: 5852896121706686342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 320
+        width: 47
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63636aa67aeca2c30800000000000000
+      internalID: 4335504809741661750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_4
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 320
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d7abcdab9cd4540800000000000000
+      internalID: 4993869366228057363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 320
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77b54d1edaba1830800000000000000
+      internalID: 4042749078655055743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac44f8c9fb306f20800000000000000
+      internalID: 3413794461551185069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 214
+        width: 78
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc11beef4688bd00800000000000000
+      internalID: 988687796072946871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 214
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025627e1056971e00800000000000000
+      internalID: 1015445511847699744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_9
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 214
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608c8eda846253430800000000000000
+      internalID: 3761955157335132166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 214
+        width: 73
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21c8cfee3b37d0a0800000000000000
+      internalID: -6856946766151368401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 213
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5b825a3cff197c0800000000000000
+      internalID: -4066187772784233021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 78
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a7ca50eaaf5a710800000000000000
+      internalID: 1704043659356043849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 112
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23de050a75d90040800000000000000
+      internalID: 4614454013265367854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d95932c187861b0800000000000000
+      internalID: -5663144469166973537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 112
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda1939181fa060f0800000000000000
+      internalID: -1125707388805375265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 109
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9da54e79e78cb60800000000000000
+      internalID: 7766596748236741034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7
+        width: 82
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5920fa10d0197a0800000000000000
+      internalID: -6372297696870230621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 7
+        width: 78
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e58d7e330e318b80800000000000000
+      internalID: -8394360046787656220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 6
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122c1fc8797f1fe30800000000000000
+      internalID: 4535678530015576609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BryanHGAim_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 7
+        width: 77
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f610bd0a37ce770800000000000000
+      internalID: 8641408919723405181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BryanHGAim_0: 5792609791933118659
+      BryanHGAim_1: 5360112514003748549
+      BryanHGAim_10: -6856946766151368401
+      BryanHGAim_11: -4066187772784233021
+      BryanHGAim_12: 1704043659356043849
+      BryanHGAim_13: 4614454013265367854
+      BryanHGAim_14: -5663144469166973537
+      BryanHGAim_15: -1125707388805375265
+      BryanHGAim_16: 7766596748236741034
+      BryanHGAim_17: -6372297696870230621
+      BryanHGAim_18: -8394360046787656220
+      BryanHGAim_19: 4535678530015576609
+      BryanHGAim_2: 5852896121706686342
+      BryanHGAim_20: 8641408919723405181
+      BryanHGAim_3: 4335504809741661750
+      BryanHGAim_4: 4993869366228057363
+      BryanHGAim_5: 4042749078655055743
+      BryanHGAim_6: 3413794461551185069
+      BryanHGAim_7: 988687796072946871
+      BryanHGAim_8: 1015445511847699744
+      BryanHGAim_9: 3761955157335132166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
