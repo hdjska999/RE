@@ -16,12 +16,19 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        vidaActual = vidaMaxima;
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        // Si venimos de "Continue", restauramos la vida guardada; si no, vidaMaxima
+        if (SaveSystem.Instance != null && SaveSystem.Instance.DebeCargarDatos())
+        {
+            vidaActual = PlayerPrefs.GetInt("VidaActual", vidaMaxima);
+        }
+        else
+        {
+            vidaActual = vidaMaxima;
+        }
 
+        spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
         {
-            // Guardamos el color original de Bryan para poder devolvérselo
             colorOriginal = spriteRenderer.color;
         }
     }

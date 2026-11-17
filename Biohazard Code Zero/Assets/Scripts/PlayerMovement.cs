@@ -34,14 +34,37 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        municionActual = tamañoCargador;
-        ActualizarUI();
-
-        // Ocultamos la UI del arma al iniciar el juego
-        if (contenedorArmaUI != null)
+        if (SaveSystem.Instance != null && SaveSystem.Instance.DebeCargarDatos())
         {
-            contenedorArmaUI.SetActive(false);
+            // Restaurar munición
+            municionActual = PlayerPrefs.GetInt("MunicionActual", tamañoCargador);
+            municionTotal = PlayerPrefs.GetInt("MunicionTotal", 30);
+
+            // Restaurar posición
+            float x = PlayerPrefs.GetFloat("PosX", transform.position.x);
+            float y = PlayerPrefs.GetFloat("PosY", transform.position.y);
+            transform.position = new Vector2(x, y);
+
+            // Restaurar pistola equipada en el Animator
+            bool tienePistola = PlayerPrefs.GetInt("TienePistola", 0) == 1;
+            anim.SetBool("tienePistola", tienePistola);
+            
+            if (contenedorArmaUI != null)
+            {
+                contenedorArmaUI.SetActive(tienePistola);
+            }
         }
+        else
+        {
+            // Partida nueva normal
+            municionActual = tamañoCargador;
+            if (contenedorArmaUI != null)
+            {
+                contenedorArmaUI.SetActive(false);
+            }
+        }
+
+        ActualizarUI();
     }
 
     void Update()

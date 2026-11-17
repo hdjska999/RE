@@ -58,7 +58,7 @@ public class MenuButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExit
         
         while (Mathf.Abs(currentScale.x - targetScaleX) > 0.01f)
         {
-            currentScale.x = Mathf.Lerp(currentScale.x, targetScaleX, Time.deltaTime * animSpeed);
+            currentScale.x = Mathf.Lerp(currentScale.x, targetScaleX, Time.unscaledDeltaTime * animSpeed);
             underlineRect.localScale = currentScale;
             yield return null;
         }

@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 99b8dcf42010a5c4bbfb8f8191524731
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2300459991288660021
+    second: Escudo_UAT_blanco_0
+  - first:
+      213: -3543392724428783490
+    second: Escudo_UAT_blanco_1
+  - first:
+      213: -7982752433676622195
+    second: Escudo_UAT_blanco_2
+  - first:
+      213: -1780946107940816909
+    second: Escudo_UAT_blanco_3
+  - first:
+      213: 4854480884382988502
+    second: Escudo_UAT_blanco_4
+  - first:
+      213: -8208540151985596773
+    second: Escudo_UAT_blanco_5
+  - first:
+      213: 8986005813303320779
+    second: Escudo_UAT_blanco_6
+  - first:
+      213: 7055572074445307688
+    second: Escudo_UAT_blanco_7
+  - first:
+      213: -7238824954355421689
+    second: Escudo_UAT_blanco_8
+  - first:
+      213: -746177981531839719
+    second: Escudo_UAT_blanco_9
+  - first:
+      213: 900239617802366799
+    second: Escudo_UAT_blanco_10
+  - first:
+      213: 6103027763500481954
+    second: Escudo_UAT_blanco_11
+  - first:
+      213: -3041651208428708228
+    second: Escudo_UAT_blanco_12
+  - first:
+      213: 684497362557516615
+    second: Escudo_UAT_blanco_13
+  - first:
+      213: 7579581980081228728
+    second: Escudo_UAT_blanco_14
+  - first:
+      213: 1404192660353064529
+    second: Escudo_UAT_blanco_15
+  - first:
+      213: 986482387084566245
+    second: Escudo_UAT_blanco_16
+  - first:
+      213: -2557579448497950182
+    second: Escudo_UAT_blanco_17
+  - first:
+      213: -3565735024156027667
+    second: Escudo_UAT_blanco_18
+  - first:
+      213: -8841023602950097303
+    second: Escudo_UAT_blanco_19
+  - first:
+      213: -6775064059469752053
+    second: Escudo_UAT_blanco_20
+  - first:
+      213: -6169945879512033716
+    second: Escudo_UAT_blanco_21
+  - first:
+      213: 1168945814422829341
+    second: Escudo_UAT_blanco_22
+  - first:
+      213: 4767261925461603288
+    second: Escudo_UAT_blanco_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_0
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 136
+        width: 1413
+        height: 1412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53042c87c20ecef10800000000000000
+      internalID: 2300459991288660021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7008b0471753dec0800000000000000
+      internalID: -3543392724428783490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 18
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86e1dcb4f0973190800000000000000
+      internalID: -7982752433676622195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 18
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b21063fec847e0800000000000000
+      internalID: -1780946107940816909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 18
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8729ae4a49e5340800000000000000
+      internalID: 4854480884382988502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 18
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b961e54f838651e80800000000000000
+      internalID: -8208540151985596773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 18
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc02a836da4b4bc70800000000000000
+      internalID: 8986005813303320779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f7a707b6d6ae160800000000000000
+      internalID: 7055572074445307688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 18
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e69649e078a8b90800000000000000
+      internalID: -7238824954355421689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 18
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a397441b05a5f0800000000000000
+      internalID: -746177981531839719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 18
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fe7d7a92b4e7c00800000000000000
+      internalID: 900239617802366799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_11
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 18
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adfac96a6f42b450800000000000000
+      internalID: 6103027763500481954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_12
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 18
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e18fe5752e9c5d0800000000000000
+      internalID: -3041651208428708228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_13
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 18
+        width: 69
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bbee089b2df7900800000000000000
+      internalID: 684497362557516615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_14
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 18
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb81bc07a5103960800000000000000
+      internalID: 7579581980081228728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_15
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 0
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e1e8ce8c1bc7310800000000000000
+      internalID: 1404192660353064529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_16
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 18
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eeda532180b0bd00800000000000000
+      internalID: 986482387084566245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_17
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 18
+        width: 77
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12b07fca07a18cd0800000000000000
+      internalID: -2557579448497950182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_18
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 16
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4d20a33e6f38ec0800000000000000
+      internalID: -3565735024156027667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_19
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 18
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b057ffdf5e4580800000000000000
+      internalID: -8841023602950097303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_20
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 18
+        width: 40
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b091acc32232af1a0800000000000000
+      internalID: -6775064059469752053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_21
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 18
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46dc4099e2ff5aa0800000000000000
+      internalID: -6169945879512033716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 18
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d193a5e560ee83010800000000000000
+      internalID: 1168945814422829341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escudo_UAT_blanco_23
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 18
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d332629677b82240800000000000000
+      internalID: 4767261925461603288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Escudo_UAT_blanco_0: 2300459991288660021
+      Escudo_UAT_blanco_1: -3543392724428783490
+      Escudo_UAT_blanco_10: 900239617802366799
+      Escudo_UAT_blanco_11: 6103027763500481954
+      Escudo_UAT_blanco_12: -3041651208428708228
+      Escudo_UAT_blanco_13: 684497362557516615
+      Escudo_UAT_blanco_14: 7579581980081228728
+      Escudo_UAT_blanco_15: 1404192660353064529
+      Escudo_UAT_blanco_16: 986482387084566245
+      Escudo_UAT_blanco_17: -2557579448497950182
+      Escudo_UAT_blanco_18: -3565735024156027667
+      Escudo_UAT_blanco_19: -8841023602950097303
+      Escudo_UAT_blanco_2: -7982752433676622195
+      Escudo_UAT_blanco_20: -6775064059469752053
+      Escudo_UAT_blanco_21: -6169945879512033716
+      Escudo_UAT_blanco_22: 1168945814422829341
+      Escudo_UAT_blanco_23: 4767261925461603288
+      Escudo_UAT_blanco_3: -1780946107940816909
+      Escudo_UAT_blanco_4: 4854480884382988502
+      Escudo_UAT_blanco_5: -8208540151985596773
+      Escudo_UAT_blanco_6: 8986005813303320779
+      Escudo_UAT_blanco_7: 7055572074445307688
+      Escudo_UAT_blanco_8: -7238824954355421689
+      Escudo_UAT_blanco_9: -746177981531839719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

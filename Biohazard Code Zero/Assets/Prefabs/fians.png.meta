@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 9ff7879887e8af0479dbc697952d532c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2842957452995844112
+    second: fians_0
+  - first:
+      213: -1171730301621315966
+    second: fians_1
+  - first:
+      213: 8637254373427505873
+    second: fians_2
+  - first:
+      213: -5498779873387156973
+    second: fians_3
+  - first:
+      213: 1858932747762161788
+    second: fians_4
+  - first:
+      213: -4711668918845976754
+    second: fians_5
+  - first:
+      213: 3074128250449701714
+    second: fians_6
+  - first:
+      213: -512590000107106664
+    second: fians_7
+  - first:
+      213: 7707530421284411717
+    second: fians_8
+  - first:
+      213: 1051946385215520218
+    second: fians_9
+  - first:
+      213: -7244846205391690597
+    second: fians_10
+  - first:
+      213: 5930272526372791740
+    second: fians_11
+  - first:
+      213: 7316565370256860017
+    second: fians_12
+  - first:
+      213: -6686781144723544082
+    second: fians_13
+  - first:
+      213: -3554289405500763709
+    second: fians_14
+  - first:
+      213: -7267743385932631417
+    second: fians_15
+  - first:
+      213: -7551727610786439894
+    second: fians_16
+  - first:
+      213: -2424234576041104907
+    second: fians_17
+  - first:
+      213: -237612410695616534
+    second: fians_18
+  - first:
+      213: 1060827650372555431
+    second: fians_19
+  - first:
+      213: -6500906060879832068
+    second: fians_20
+  - first:
+      213: 3755713494127467848
+    second: fians_21
+  - first:
+      213: -3270371006253288735
+    second: fians_22
+  - first:
+      213: 992301046632160067
+    second: fians_23
+  - first:
+      213: -1066129127551432585
+    second: fians_24
+  - first:
+      213: 96854406998034665
+    second: fians_25
+  - first:
+      213: -3770246260194503813
+    second: fians_26
+  - first:
+      213: 1597971259780306007
+    second: fians_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fians_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 215
+        width: 7
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f722a65249cb88d0800000000000000
+      internalID: -2842957452995844112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 7
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286dc4faf7d2dbfe0800000000000000
+      internalID: -1171730301621315966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 206
+        width: 62
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dae5da2711bdd770800000000000000
+      internalID: 8637254373427505873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 206
+        width: 19
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ae0b4c6d860b3b0800000000000000
+      internalID: -5498779873387156973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 205
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7854bb2c714cc910800000000000000
+      internalID: 1858932747762161788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 252
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fcfe0f41acc9eb0800000000000000
+      internalID: -4711668918845976754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 251
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b2c0a3b5f79aa20800000000000000
+      internalID: 3074128250449701714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 251
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ec2385c1ae2e8f0800000000000000
+      internalID: -512590000107106664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_8
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 251
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5499c28f416a6fa60800000000000000
+      internalID: 7707530421284411717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 251
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addf685f9a3499e00800000000000000
+      internalID: 1051946385215520218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_10
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 252
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94aa43d2c2257b90800000000000000
+      internalID: -7244846205391690597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 252
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb565bb517f8c4250800000000000000
+      internalID: 5930272526372791740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_12
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 246
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173a51e7079a98560800000000000000
+      internalID: 7316565370256860017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 275
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee729f91af7c333a0800000000000000
+      internalID: -6686781144723544082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_14
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 252
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1513cfd90acaec0800000000000000
+      internalID: -3554289405500763709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 251
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7827aca85e9c32b90800000000000000
+      internalID: -7267743385932631417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 275
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d909eafbfd23790800000000000000
+      internalID: -7551727610786439894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_17
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 251
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9a9da4f736b5ed0800000000000000
+      internalID: -2424234576041104907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 214
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7734a75c4d3bcf0800000000000000
+      internalID: -237612410695616534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 214
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a25e54a021d8be00800000000000000
+      internalID: 1060827650372555431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 214
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbd213816428c5a0800000000000000
+      internalID: -6500906060879832068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_21
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 214
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ddb973689fe1430800000000000000
+      internalID: 3755713494127467848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_22
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 214
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e23980a5ee4d92d0800000000000000
+      internalID: -3270371006253288735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 238
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b12c26b8c55cd00800000000000000
+      internalID: 992301046632160067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_24
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 214
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778899305395431f0800000000000000
+      internalID: -1066129127551432585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_25
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 214
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e88c0ce198185100800000000000000
+      internalID: 96854406998034665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 214
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739c5180056dabc0800000000000000
+      internalID: -3770246260194503813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fians_27
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 214
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7541d74f4622d2610800000000000000
+      internalID: 1597971259780306007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fians_0: -2842957452995844112
+      fians_1: -1171730301621315966
+      fians_10: -7244846205391690597
+      fians_11: 5930272526372791740
+      fians_12: 7316565370256860017
+      fians_13: -6686781144723544082
+      fians_14: -3554289405500763709
+      fians_15: -7267743385932631417
+      fians_16: -7551727610786439894
+      fians_17: -2424234576041104907
+      fians_18: -237612410695616534
+      fians_19: 1060827650372555431
+      fians_2: 8637254373427505873
+      fians_20: -6500906060879832068
+      fians_21: 3755713494127467848
+      fians_22: -3270371006253288735
+      fians_23: 992301046632160067
+      fians_24: -1066129127551432585
+      fians_25: 96854406998034665
+      fians_26: -3770246260194503813
+      fians_27: 1597971259780306007
+      fians_3: -5498779873387156973
+      fians_4: 1858932747762161788
+      fians_5: -4711668918845976754
+      fians_6: 3074128250449701714
+      fians_7: -512590000107106664
+      fians_8: 7707530421284411717
+      fians_9: 1051946385215520218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

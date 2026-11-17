@@ -60,4 +60,19 @@ public class PickupItem : MonoBehaviour
             yaSeRecogio = false; // Por si el inventario estaba lleno y no pudo agarrarla
         }
     }
+
+    void Start()
+    {
+        // Si ya cargamos partida y Bryan ya tiene un arma, destruimos esta pistola del suelo
+        if (itemInfo != null && itemInfo.isWeapon)
+        {
+            if (SaveSystem.Instance != null && SaveSystem.Instance.DebeCargarDatos())
+            {
+                if (PlayerPrefs.GetInt("TienePistola", 0) == 1)
+                {
+                    Destroy(gameObject);
+                }
+            }
+        }
+    }
 }
