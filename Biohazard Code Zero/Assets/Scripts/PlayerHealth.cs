@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private Color colorOriginal;
+    private bool estaMuerto = false;
 
     void Start()
     {
@@ -28,23 +29,32 @@ public class PlayerHealth : MonoBehaviour
 
     public void RecibirDaño(int daño)
     {
+        if (estaMuerto) return;
+
         vidaActual -= daño;
         Debug.Log("¡Bryan fue atacado! Vida restante: " + vidaActual);
+
+        if (spriteRenderer != null)
+        {
+            StopAllCoroutines();
+            StartCoroutine(EfectoFlash());
+        }
 
         if (vidaActual <= 0)
         {
             Morir();
         }
-        else if (spriteRenderer != null)
-        {
-            // Detenemos cualquier flash anterior y empezamos uno nuevo
-            StopAllCoroutines();
-            StartCoroutine(FlashDaño());
-        }
     }
 
-    // Esta corrutina hace el cambio de color ida y vuelta
-    IEnumerator FlashDaño()
+    public void Curar(int cantidad)
+    {
+        if (estaMuerto) return;
+
+        vidaActual = Mathf.Min(vidaActual + cantidad, vidaMaxima);
+        Debug.Log("¡Bryan se curó! Vida actual: " + vidaActual);
+    }
+
+    IEnumerator EfectoFlash()
     {
         spriteRenderer.color = colorDaño;
         yield return new WaitForSeconds(duracionFlash);
@@ -53,7 +63,18 @@ public class PlayerHealth : MonoBehaviour
 
     void Morir()
     {
+        if (estaMuerto) return;
+        estaMuerto = true;
+
         Debug.Log("¡Estás muerto! GAME OVER.");
-        gameObject.SetActive(false); // Oculta a Bryan
+
+        if (MercenariesManager.Instance != null)
+        {
+            MercenariesManager.Instance.TerminarPartida("¡HAS MUERTO!");
+        }
+        else
+        {
+            Time.timeScale = 0f;
+        }
     }
 }

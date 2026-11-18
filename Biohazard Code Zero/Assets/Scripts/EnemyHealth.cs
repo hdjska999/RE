@@ -1,18 +1,27 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [Header("Configuración de Vida")]
-    public int vidaMaxima = 4;
+    [Header("Salud del Enemigo")]
+    public int vidaMaxima = 2;
     private int vidaActual;
 
-    [Header("Efecto de Daño")]
+    [Header("Efecto Visual de Daño")]
     public Color colorDaño = Color.red;
     public float duracionFlash = 0.1f;
 
+    [Header("Drops de Loot al Morir")]
+    public GameObject prefabMunicion;
+    public GameObject prefabCuracion;
+    [Tooltip("Vida máxima que debe tener Bryan para que puedan salir hierbas verdes")]
+    public int umbralPocaVida = 40;
+    [Range(0f, 100f)]
+    public float probabilidadHierbaPocaVida = 75f;
+
     private SpriteRenderer spriteRenderer;
     private Color colorOriginal;
+    private bool estaMuerto = false;
 
     void Start()
     {
@@ -25,24 +34,25 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    public void RecibirDaño(int daño)
+    public void RecibirDaño(int cantidadDaño)
     {
-        vidaActual -= daño;
-        Debug.Log("¡Zombie atacado! Vida restante: " + vidaActual);
+        if (estaMuerto) return;
+
+        vidaActual -= cantidadDaño;
+
+        if (spriteRenderer != null)
+        {
+            StopAllCoroutines();
+            StartCoroutine(EfectoFlash());
+        }
 
         if (vidaActual <= 0)
         {
             Morir();
         }
-        else if (spriteRenderer != null)
-        {
-            // Reinicia el flash si le das varios tiros seguidos
-            StopAllCoroutines();
-            StartCoroutine(FlashDaño());
-        }
     }
 
-    IEnumerator FlashDaño()
+    IEnumerator EfectoFlash()
     {
         spriteRenderer.color = colorDaño;
         yield return new WaitForSeconds(duracionFlash);
@@ -51,7 +61,39 @@ public class EnemyHealth : MonoBehaviour
 
     void Morir()
     {
-        Debug.Log("¡El zombie ha muerto!");
+        if (estaMuerto) return;
+        estaMuerto = true;
+
+        if (MercenariesManager.Instance != null)
+        {
+            MercenariesManager.Instance.RegistrarBaja();
+        }
+
+        SoltarLoot();
         Destroy(gameObject);
+    }
+
+    void SoltarLoot()
+    {
+        // 1. Siempre suelta caja de munición
+        if (prefabMunicion != null)
+        {
+            Instantiate(prefabMunicion, transform.position, Quaternion.identity);
+        }
+
+        // 2. Si Bryan tiene poca vida, suelta hierba verde
+        if (prefabCuracion != null)
+        {
+            PlayerHealth saludJugador = FindAnyObjectByType<PlayerHealth>();
+            if (saludJugador != null && saludJugador.vidaActual <= umbralPocaVida)
+            {
+                if (Random.Range(0f, 100f) <= probabilidadHierbaPocaVida)
+                {
+                    // Se desplaza ligeramente a un lado para que no se encime con la caja de balas
+                    Vector2 offset = new Vector2(0.45f, 0.2f);
+                    Instantiate(prefabCuracion, (Vector2)transform.position + offset, Quaternion.identity);
+                }
+            }
+        }
     }
 }

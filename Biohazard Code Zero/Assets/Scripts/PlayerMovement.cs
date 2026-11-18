@@ -4,110 +4,89 @@ using TMPro;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Configuración")]
-    public float moveSpeed = 5f;
+    [Header("Configuración Hotline")]
+    public float moveSpeed = 7f;
+    [Tooltip("Deja en 0 si tu sprite mira hacia la derecha por defecto")]
+    public float offsetRotacion = 0f;
 
     [Header("Sistema de Disparo")]
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float tiempoEntreDisparos = 0.5f;
+    public float tiempoEntreDisparos = 0.2f;
     private float proximoDisparo = 0f;
 
     [Header("Munición y Recarga")]
     public int tamañoCargador = 15;
     public int municionActual;
-    public int municionTotal = 30;
+    public int municionTotal = 45;
 
     [Header("Interfaz (UI)")]
     public TextMeshProUGUI textoMunicion;
-    public GameObject contenedorArmaUI; // NUEVO: El grupo que contiene el ícono y el texto
+    public GameObject contenedorArmaUI;
 
     private Rigidbody2D rb;
     private Animator anim;
-    private SpriteRenderer spriteRenderer;
     private Vector2 movement;
-    private Vector2 ultimaDireccionDisparo = Vector2.right;
+    private Vector2 mousePos;
+    private float anguloApuntado;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
 
         municionActual = tamañoCargador;
         ActualizarUI();
 
-        // Ocultamos la UI del arma al iniciar el juego
         if (contenedorArmaUI != null)
-        {
             contenedorArmaUI.SetActive(false);
-        }
     }
 
     void Update()
     {
+        // 1. Movimiento libre con WASD
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = movement.normalized;
 
+        // 2. Obtener posición del mouse en el mundo
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        // 3. Animación de caminar (solo usa la velocidad total)
+        anim.SetFloat("Speed", movement.sqrMagnitude);
+
         bool tienePistola = anim.GetBool("tienePistola");
 
-        // NUEVO: Mostrar la UI solo si tiene el arma equipada
-        if (tienePistola && contenedorArmaUI != null && !contenedorArmaUI.activeSelf)
-        {
-            contenedorArmaUI.SetActive(true);
-        }
-        else if (!tienePistola && contenedorArmaUI != null && contenedorArmaUI.activeSelf)
-        {
-            contenedorArmaUI.SetActive(false);
-        }
+        // Mostrar u ocultar el contador de balas en pantalla según si trae arma
+        if (contenedorArmaUI != null && contenedorArmaUI.activeSelf != tienePistola)
+            contenedorArmaUI.SetActive(tienePistola);
 
         if (tienePistola)
         {
-            // === MODO COMBATE ===
-            if (movement.x != 0 || movement.y != 0)
-            {
-                anim.SetFloat("apuntandoX", movement.x);
-                anim.SetFloat("apuntandoY", movement.y);
-                ultimaDireccionDisparo = movement;
-            }
-
-            if (Input.GetKeyDown(KeyCode.Space) && Time.time >= proximoDisparo)
+            // Disparar con Clic Izquierdo
+            if (Input.GetMouseButtonDown(0) && Time.time >= proximoDisparo)
             {
                 if (municionActual > 0)
-                {
                     Disparar();
-                }
                 else
-                {
-                    Debug.Log("¡Click! Arma vacía. Presiona 'R' para recargar.");
-                }
+                    Debug.Log("¡Click! Presiona 'R' para recargar.");
             }
 
+            // Recargar con R
             if (Input.GetKeyDown(KeyCode.R))
-            {
                 Recargar();
-            }
         }
-        else
-        {
-            // === MODO EXPLORACIÓN ===
-            anim.SetFloat("Speed", movement.sqrMagnitude);
-
-            if (movement.x != 0 || movement.y != 0)
-            {
-                anim.SetFloat("X", movement.x);
-                anim.SetFloat("Y", movement.y);
-            }
-        }
-
-        if (movement.x < 0) spriteRenderer.flipX = true;
-        else if (movement.x > 0) spriteRenderer.flipX = false;
     }
 
     void FixedUpdate()
     {
+        // Aplicar movimiento físico
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
+        // Calcular ángulo hacia el cursor y rotar al jugador en 360°
+        Vector2 direccion = mousePos - rb.position;
+        anguloApuntado = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg + offsetRotacion;
+        rb.MoveRotation(anguloApuntado);
     }
 
     void Disparar()
@@ -116,9 +95,8 @@ public class PlayerMovement : MonoBehaviour
         municionActual--;
         ActualizarUI();
 
-        GameObject balaClon = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-        float angulo = Mathf.Atan2(ultimaDireccionDisparo.y, ultimaDireccionDisparo.x) * Mathf.Rad2Deg;
-        balaClon.transform.rotation = Quaternion.Euler(0, 0, angulo);
+        // Instanciar la bala en la punta del cañón y con la rotación actual de Bryan
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 
     void Recargar()
@@ -130,15 +108,18 @@ public class PlayerMovement : MonoBehaviour
 
         municionActual += balasARecargar;
         municionTotal -= balasARecargar;
+        ActualizarUI();
+    }
 
+    public void AgregarMunicion(int cantidad)
+    {
+        municionTotal += cantidad;
         ActualizarUI();
     }
 
     void ActualizarUI()
     {
         if (textoMunicion != null)
-        {
             textoMunicion.text = municionActual.ToString() + " / " + municionTotal.ToString();
-        }
     }
 }

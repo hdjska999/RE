@@ -1,63 +1,35 @@
 using UnityEngine;
-using System.Collections; // Necesario para el tiempo de espera
 
 public class PickupItem : MonoBehaviour
 {
-    public ItemData itemInfo; // Aquí metes la info del arma
-    private bool yaSeRecogio = false;
+    [Header("Configuración del Objeto")]
+    public ItemData itemData;
+    public bool esPistola = true;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        // Revisa si el que lo pisó es Bryan y si no se ha agarrado ya
-        if (other.CompareTag("Player") && !yaSeRecogio)
+        if (other.CompareTag("Player"))
         {
-            yaSeRecogio = true;
-            StartCoroutine(SecuenciaRecoger(other.gameObject));
-        }
-    }
+            // Si hay InventoryManager y itemData, verificamos que sí quepa en el inventario
+            if (InventoryManager.Instance != null && itemData != null)
+            {
+                bool recogido = InventoryManager.Instance.AddItem(itemData);
+                if (!recogido) return; // Si está lleno (6 slots), no recoge ni borra el objeto del piso
+            }
 
-    IEnumerator SecuenciaRecoger(GameObject player)
-    {
-        // 1. Intentamos meterlo al inventario "invisible"
-        bool pickedUp = InventoryManager.Instance.AddItem(itemInfo);
-        
-        if (pickedUp)
-        {
-            // Ocultamos la pistola del piso para que parezca que la quitó
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<Collider2D>().enabled = false;
-
-            // 2. Buscamos el Animator y el script de Bryan
-            Animator anim = player.GetComponent<Animator>();
-            PlayerMovement movimiento = player.GetComponent<PlayerMovement>(); // O como se llame tu script de moverte
-
+            // Activar animaciones en el Player
+            Animator anim = other.GetComponent<Animator>();
             if (anim != null)
             {
-                // Desactivamos el movimiento para que no camine mientras se agacha
-                if (movimiento != null) movimiento.enabled = false;
+                anim.SetTrigger("Recoger");
 
-                // Activamos la animación de agacharse
-                anim.SetTrigger("recoger");
-
-                // Esperamos lo que dura la animación (ej: 0.5 segundos)
-                yield return new WaitForSeconds(0.5f);
-
-                // Le decimos al Animator que ya traemos la pistola encima
-                if (itemInfo.isWeapon)
+                if (esPistola)
                 {
                     anim.SetBool("tienePistola", true);
                 }
-
-                // Devolvemos el control al jugador
-                if (movimiento != null) movimiento.enabled = true;
             }
 
-            // 3. Destruimos el objeto del suelo definitivamente
             Destroy(gameObject);
-        }
-        else
-        {
-            yaSeRecogio = false; // Por si el inventario estaba lleno y no pudo agarrarla
         }
     }
 }
