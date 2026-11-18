@@ -30,6 +30,8 @@ public class MercenariesDrop : MonoBehaviour
                 if (movimiento != null)
                 {
                     movimiento.AgregarMunicion(cantidad);
+                    if (AudioManager.Instance != null)
+                        AudioManager.Instance.PlayRecogerMunicion();
                 }
                 break;
 
@@ -40,6 +42,8 @@ public class MercenariesDrop : MonoBehaviour
                     // Si ya tiene toda la vida, no gasta el botiquín
                     if (salud.vidaActual >= salud.vidaMaxima) return;
                     salud.Curar(cantidad);
+                    if (AudioManager.Instance != null)
+                        AudioManager.Instance.PlayRecogerCuracion();
                 }
                 break;
 
@@ -47,6 +51,8 @@ public class MercenariesDrop : MonoBehaviour
                 if (MercenariesManager.Instance != null)
                 {
                     MercenariesManager.Instance.AgregarTiempo(cantidad);
+                    if (AudioManager.Instance != null)
+                        AudioManager.Instance.PlayRecogerTiempo();
                 }
                 break;
         }

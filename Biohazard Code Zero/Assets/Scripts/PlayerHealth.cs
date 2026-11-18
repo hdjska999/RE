@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,6 +11,15 @@ public class PlayerHealth : MonoBehaviour
     [Header("Efecto de Daño")]
     public Color colorDaño = Color.red; // Color del flash
     public float duracionFlash = 0.15f; // Cuánto dura en rojo
+
+    [Header("Game Feel - Camera Shake")]
+    public bool habilitarCameraShake = true;
+    public float shakeDañoDuracion = 0.22f;
+    public float shakeDañoIntensidad = 0.40f;
+
+    // Evento para notificar al HUD sin acoplamiento
+    public event Action<int, int> OnVidaCambiada;
+    public float PorcentajeVida => vidaMaxima > 0 ? (float)vidaActual / vidaMaxima : 0f;
 
     private SpriteRenderer spriteRenderer;
     private Color colorOriginal;
@@ -22,17 +32,26 @@ public class PlayerHealth : MonoBehaviour
 
         if (spriteRenderer != null)
         {
-            // Guardamos el color original de Bryan para poder devolvérselo
             colorOriginal = spriteRenderer.color;
         }
+
+        OnVidaCambiada?.Invoke(vidaActual, vidaMaxima);
     }
 
     public void RecibirDaño(int daño)
     {
         if (estaMuerto) return;
 
-        vidaActual -= daño;
+        vidaActual = Mathf.Max(0, vidaActual - daño);
         Debug.Log("¡Bryan fue atacado! Vida restante: " + vidaActual);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayDañoBryan();
+
+        if (habilitarCameraShake && CameraFollow.Instance != null)
+            CameraFollow.Instance.Shake(shakeDañoDuracion, shakeDañoIntensidad);
+
+        OnVidaCambiada?.Invoke(vidaActual, vidaMaxima);
 
         if (spriteRenderer != null)
         {
@@ -52,6 +71,8 @@ public class PlayerHealth : MonoBehaviour
 
         vidaActual = Mathf.Min(vidaActual + cantidad, vidaMaxima);
         Debug.Log("¡Bryan se curó! Vida actual: " + vidaActual);
+
+        OnVidaCambiada?.Invoke(vidaActual, vidaMaxima);
     }
 
     IEnumerator EfectoFlash()

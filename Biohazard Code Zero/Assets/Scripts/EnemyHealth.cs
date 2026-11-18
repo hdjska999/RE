@@ -40,6 +40,12 @@ public class EnemyHealth : MonoBehaviour
 
         vidaActual -= cantidadDaño;
 
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayImpactoBala();
+            AudioManager.Instance.PlayDañoZombie();
+        }
+
         if (spriteRenderer != null)
         {
             StopAllCoroutines();
@@ -63,6 +69,11 @@ public class EnemyHealth : MonoBehaviour
     {
         if (estaMuerto) return;
         estaMuerto = true;
+
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayMuerteZombie();
+        }
 
         if (MercenariesManager.Instance != null)
         {

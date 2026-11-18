@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class MenuButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class MenuButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [Header("Referencias")]
     public RectTransform underlineRect; 
@@ -37,8 +37,17 @@ public class MenuButtonHover : MonoBehaviour, IPointerEnterHandler, IPointerExit
     {
         if (buttonText != null) buttonText.color = hoverColor;
         
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayHover();
+
         if (scaleCoroutine != null) StopCoroutine(scaleCoroutine);
         scaleCoroutine = StartCoroutine(ScaleUnderline(1f));
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayClick();
     }
 
     public void OnPointerExit(PointerEventData eventData)

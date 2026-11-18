@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -15,6 +16,7 @@ public class MercenariesManager : MonoBehaviour
     public int puntajeTotal = 0;
     public int puntosBasePorKill = 1000;
     public int comboActual = 0;
+    public int totalBajas = 0; // Conteo total estilo Mercenarios RE4
     public float tiempoVentanaCombo = 4f; // Segundos máximos entre bajas para mantener el combo
     private float temporizadorCombo = 0f;
 
@@ -22,6 +24,8 @@ public class MercenariesManager : MonoBehaviour
     public TextMeshProUGUI textoTiempo;
     public TextMeshProUGUI textoPuntaje;
     public TextMeshProUGUI textoCombo;
+    public TextMeshProUGUI textoBajas; // Opcional en el panel superior
+    public Image barraCombo; // Barra de tiempo restante del combo estilo RE4
     public GameObject panelGameOver;
 
     void Awake()
@@ -62,14 +66,23 @@ public class MercenariesManager : MonoBehaviour
             }
         }
 
+        if (barraCombo != null)
+        {
+            barraCombo.gameObject.SetActive(comboActual > 0);
+            if (comboActual > 0 && tiempoVentanaCombo > 0f)
+            {
+                barraCombo.fillAmount = Mathf.Clamp01(temporizadorCombo / tiempoVentanaCombo);
+            }
+        }
+
         ActualizarUI();
     }
 
-    // Suma puntos, sube el combo y agrega segundos extra al reloj
     public void RegistrarBaja()
     {
         if (juegoTerminado) return;
 
+        totalBajas++;
         comboActual++;
         temporizadorCombo = tiempoVentanaCombo;
 
@@ -81,7 +94,6 @@ public class MercenariesManager : MonoBehaviour
         ActualizarUI();
     }
 
-    // Por si también dejas relojes fijos en algunas esquinas del hospital
     public void AgregarTiempo(float segundosExtra)
     {
         if (juegoTerminado) return;
@@ -105,20 +117,37 @@ public class MercenariesManager : MonoBehaviour
 
     void ActualizarUI()
     {
+        // Reloj con formato MM:SS.ms (ej. 01:45.38)
         if (textoTiempo != null)
         {
-            int minutos = Mathf.FloorToInt(tiempoRestante / 60);
-            int segundos = Mathf.FloorToInt(tiempoRestante % 60);
-            textoTiempo.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+            int minutos = Mathf.FloorToInt(tiempoRestante / 60f);
+            int segundos = Mathf.FloorToInt(tiempoRestante % 60f);
+            int milisegundos = Mathf.FloorToInt((tiempoRestante * 100f) % 100f);
+            textoTiempo.text = string.Format("{0:00}:{1:00}.{2:00}", minutos, segundos, milisegundos);
+
+            // Efecto visual de alarma roja cuando queda poco tiempo (< 20 segundos)
+            if (tiempoRestante <= 20f && tiempoRestante > 0f)
+            {
+                textoTiempo.color = Color.Lerp(new Color(1f, 0.2f, 0.2f, 1f), Color.white, Mathf.PingPong(Time.time * 4f, 1f));
+            }
+            else
+            {
+                textoTiempo.color = Color.white;
+            }
         }
 
         if (textoPuntaje != null)
-            textoPuntaje.text = "PTS: " + puntajeTotal.ToString("N0");
+            textoPuntaje.text = puntajeTotal.ToString("N0");
 
         if (textoCombo != null)
         {
             textoCombo.gameObject.SetActive(comboActual > 1);
-            textoCombo.text = "x" + comboActual + " COMBO!";
+            textoCombo.text = "x" + comboActual + " COMBO";
+        }
+
+        if (textoBajas != null)
+        {
+            textoBajas.text = totalBajas.ToString();
         }
     }
 }

@@ -12,6 +12,12 @@ public class TimeBonusPickup : MonoBehaviour
             {
                 MercenariesManager.Instance.AgregarTiempo(segundosExtra);
             }
+
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayRecogerTiempo();
+            }
+
             Destroy(gameObject);
         }
     }
