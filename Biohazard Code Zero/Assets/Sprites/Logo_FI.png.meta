@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 2a79491cac2f2fc40a237745ab0f74c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6925631013316306183
+    second: Logo_FI_0
+  - first:
+      213: -1299414919609444425
+    second: Logo_FI_1
+  - first:
+      213: 1855332088158885140
+    second: Logo_FI_2
+  - first:
+      213: -9083833218973558231
+    second: Logo_FI_3
+  - first:
+      213: 5692023154239805186
+    second: Logo_FI_4
+  - first:
+      213: -9103815696561118757
+    second: Logo_FI_5
+  - first:
+      213: -336668624083800889
+    second: Logo_FI_6
+  - first:
+      213: 2147758824157902687
+    second: Logo_FI_7
+  - first:
+      213: 4261299865700317309
+    second: Logo_FI_8
+  - first:
+      213: 8853648351422717001
+    second: Logo_FI_9
+  - first:
+      213: -5636152123159645501
+    second: Logo_FI_10
+  - first:
+      213: -1996461418771673003
+    second: Logo_FI_11
+  - first:
+      213: 5219498397731946787
+    second: Logo_FI_12
+  - first:
+      213: 6265382946004416149
+    second: Logo_FI_13
+  - first:
+      213: -8978057967891266831
+    second: Logo_FI_14
+  - first:
+      213: 5969990750219491126
+    second: Logo_FI_15
+  - first:
+      213: 4142388717787234334
+    second: Logo_FI_16
+  - first:
+      213: -9183672999712707573
+    second: Logo_FI_17
+  - first:
+      213: 8796095337281418410
+    second: Logo_FI_18
+  - first:
+      213: -1786004113248712167
+    second: Logo_FI_19
+  - first:
+      213: 2520111379694884306
+    second: Logo_FI_20
+  - first:
+      213: 8504099037445820753
+    second: Logo_FI_21
+  - first:
+      213: 1392013082804934954
+    second: Logo_FI_22
+  - first:
+      213: -6429921847829799623
+    second: Logo_FI_23
+  - first:
+      213: 6515871831887740894
+    second: Logo_FI_24
+  - first:
+      213: -8689494804236930306
+    second: Logo_FI_25
+  - first:
+      213: 3901635960367205934
+    second: Logo_FI_26
+  - first:
+      213: 6951775011550571837
+    second: Logo_FI_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_FI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 6
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705a52a86b8cc1060800000000000000
+      internalID: 6925631013316306183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 7
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b716d4e30d87fde0800000000000000
+      internalID: -1299414919609444425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415181744b67fb910800000000000000
+      internalID: 1855332088158885140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 19
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a1038c0ddbfe180800000000000000
+      internalID: -9083833218973558231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20713c1b6e02efe40800000000000000
+      internalID: 5692023154239805186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_5
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 46
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd169d9abdfb8a180800000000000000
+      internalID: -9103815696561118757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 45
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc277e8ba9e35bf0800000000000000
+      internalID: -336668624083800889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 45
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f577421754f5ecd10800000000000000
+      internalID: 2147758824157902687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 45
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78bc7886ad232b30800000000000000
+      internalID: 4261299865700317309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 45
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c16c8544a7eda70800000000000000
+      internalID: 8853648351422717001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 46
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2710f618d58c1b0800000000000000
+      internalID: -5636152123159645501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 46
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5509756dae42b44e0800000000000000
+      internalID: -1996461418771673003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_12
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 40
+        width: 65
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321888e73226f6840800000000000000
+      internalID: 5219498397731946787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 69
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596326e089c13f650800000000000000
+      internalID: 6265382946004416149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_14
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 46
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2c9f298d7876380800000000000000
+      internalID: -8978057967891266831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_15
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 45
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637533bf4faa9d250800000000000000
+      internalID: 5969990750219491126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 69
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104b4d6798bc7930800000000000000
+      internalID: 4142388717787234334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 45
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c27ce501a0d8080800000000000000
+      internalID: -9183672999712707573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_18
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 8
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4f0250b12021a70800000000000000
+      internalID: 8796095337281418410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 8
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a8c6eb8b6d637e0800000000000000
+      internalID: -1786004113248712167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 8
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5122d92fb39f220800000000000000
+      internalID: 2520111379694884306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_21
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 8
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15113b59401a40670800000000000000
+      internalID: 8504099037445820753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_22
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 8
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29d84b068c615310800000000000000
+      internalID: 1392013082804934954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dd496852454c6a0800000000000000
+      internalID: -6429921847829799623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_24
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 8
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf74a598e60d6a50800000000000000
+      internalID: 6515871831887740894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_25
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 8
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2fad3b386b86780800000000000000
+      internalID: -8689494804236930306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_26
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 8
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ec394fb35652630800000000000000
+      internalID: 3901635960367205934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_FI_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 8
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3da8e97a8aa97060800000000000000
+      internalID: 6951775011550571837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_FI_0: 6925631013316306183
+      Logo_FI_1: -1299414919609444425
+      Logo_FI_10: -5636152123159645501
+      Logo_FI_11: -1996461418771673003
+      Logo_FI_12: 5219498397731946787
+      Logo_FI_13: 6265382946004416149
+      Logo_FI_14: -8978057967891266831
+      Logo_FI_15: 5969990750219491126
+      Logo_FI_16: 4142388717787234334
+      Logo_FI_17: -9183672999712707573
+      Logo_FI_18: 8796095337281418410
+      Logo_FI_19: -1786004113248712167
+      Logo_FI_2: 1855332088158885140
+      Logo_FI_20: 2520111379694884306
+      Logo_FI_21: 8504099037445820753
+      Logo_FI_22: 1392013082804934954
+      Logo_FI_23: -6429921847829799623
+      Logo_FI_24: 6515871831887740894
+      Logo_FI_25: -8689494804236930306
+      Logo_FI_26: 3901635960367205934
+      Logo_FI_27: 6951775011550571837
+      Logo_FI_3: -9083833218973558231
+      Logo_FI_4: 5692023154239805186
+      Logo_FI_5: -9103815696561118757
+      Logo_FI_6: -336668624083800889
+      Logo_FI_7: 2147758824157902687
+      Logo_FI_8: 4261299865700317309
+      Logo_FI_9: 8853648351422717001
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

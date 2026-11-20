@@ -21,9 +21,14 @@ public class PlayerHealth : MonoBehaviour
     public event Action<int, int> OnVidaCambiada;
     public float PorcentajeVida => vidaMaxima > 0 ? (float)vidaActual / vidaMaxima : 0f;
 
+    /// <summary>True mientras Bryan tiene frames de invencibilidad (esquive).</summary>
+    public bool EsInvulnerable => Time.time < invulnerableHasta;
+    public bool EstaMuerto => estaMuerto;
+
     private SpriteRenderer spriteRenderer;
     private Color colorOriginal;
     private bool estaMuerto = false;
+    private float invulnerableHasta = -1f;
 
     void Start()
     {
@@ -38,9 +43,21 @@ public class PlayerHealth : MonoBehaviour
         OnVidaCambiada?.Invoke(vidaActual, vidaMaxima);
     }
 
+    /// <summary>Activa i-frames durante 'segundos' (lo usa el Dash táctico).</summary>
+    public void HacerInvulnerable(float segundos)
+    {
+        invulnerableHasta = Mathf.Max(invulnerableHasta, Time.time + segundos);
+    }
+
     public void RecibirDaño(int daño)
     {
         if (estaMuerto) return;
+
+        // Esquive: el golpe no conecta durante los i-frames
+        if (EsInvulnerable) return;
+
+        // Con la partida terminada (resultados en pantalla) ya no se recibe daño
+        if (MercenariesManager.Instance != null && MercenariesManager.Instance.JuegoTerminado) return;
 
         vidaActual = Mathf.Max(0, vidaActual - daño);
         Debug.Log("¡Bryan fue atacado! Vida restante: " + vidaActual);
@@ -55,8 +72,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (spriteRenderer != null)
         {
-            StopAllCoroutines();
-            StartCoroutine(EfectoFlash());
+            StopCoroutine(nameof(EfectoFlash));
+            StartCoroutine(nameof(EfectoFlash));
         }
 
         if (vidaActual <= 0)
@@ -78,7 +95,8 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator EfectoFlash()
     {
         spriteRenderer.color = colorDaño;
-        yield return new WaitForSeconds(duracionFlash);
+        // Tiempo real: si Bryan muere y el juego se congela, el flash igual termina
+        yield return new WaitForSecondsRealtime(duracionFlash);
         spriteRenderer.color = colorOriginal;
     }
 
@@ -89,13 +107,21 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("¡Estás muerto! GAME OVER.");
 
+        // Bryan deja de moverse y disparar de inmediato
+        PlayerMovement movimiento = GetComponent<PlayerMovement>();
+        if (movimiento != null) movimiento.enabled = false;
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null) { rb.linearVelocity = Vector2.zero; rb.angularVelocity = 0f; }
+
         if (MercenariesManager.Instance != null)
         {
-            MercenariesManager.Instance.TerminarPartida("¡HAS MUERTO!");
+            // Muestra resultados y congela toda la simulación del nivel
+            MercenariesManager.Instance.TerminarPartida("¡HAS MUERTO!", false);
         }
         else
         {
             Time.timeScale = 0f;
+            if (CameraFollow.Instance != null) CameraFollow.Instance.Congelar();
         }
     }
 }

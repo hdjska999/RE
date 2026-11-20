@@ -6,7 +6,7 @@ using UnityEditor.SceneManagement;
 using TMPro;
 using System.IO;
 
-public static class SetupRE4Scene
+public static partial class SetupRE4Scene
 {
     private const string CARPETA_AUDIO = "Assets/Audio";
     private const string RUTA_SPRITE_ANILLO = "Assets/Sprites/AnilloVidaRE4.png";
@@ -192,68 +192,13 @@ public static class SetupRE4Scene
             return CrearWavData(s, sr);
         });
 
-        // 5. Daño Zombie: Gruñido gutural grave y rasposo con flutter de cuerdas vocales
-        AudioClip clipDañoZombie = ObtenerOGenerarClip("Assets/Audio/sfx_daño_zombie.wav", () => {
-            int sr = 44100;
-            float dur = 0.36f;
-            int n = (int)(sr * dur);
-            float[] s = new float[n];
-            for (int i = 0; i < n; i++)
-            {
-                float t = (float)i / sr;
-                float env = Mathf.Sin(Mathf.PI * Mathf.Clamp01(t / dur));
+        // 5. Daño Zombie: Gruñido gutural grave y rasposo (fuente glotal + formantes + subarmónicos)
+        AudioClip clipDañoZombie = ObtenerOGenerarClip("Assets/Audio/sfx_daño_zombie.wav", () =>
+            CrearWavData(SintetizarGruñidoZombie(44100, 0.42f, 95f, 68f, 0.85f, 520f, 430f, 0.03f, 1.3f, 1), 44100), true);
 
-                // Tono base gutural grave (74Hz)
-                float freq = 74f + Mathf.Sin(2f * Mathf.PI * 8f * t) * 6f;
-                float baseTone = Mathf.Sin(2f * Mathf.PI * freq * t);
-                float formant = Mathf.Sin(2f * Mathf.PI * (freq * 2.6f) * t) * 0.45f;
-
-                // Vibrato / vocal fry rasposo de garganta a 24Hz
-                float flutter = (Mathf.Sin(2f * Mathf.PI * 24f * t) + 1f) * 0.5f;
-                float raspNoise = (Random.value * 2f - 1f) * flutter * 0.65f;
-
-                float voice = (baseTone + formant + raspNoise) * env;
-                float sat = Mathf.Clamp(voice * 1.9f, -1.2f, 1.2f);
-                sat = sat - (sat * sat * sat) / 3f;
-
-                s[i] = sat * 0.9f;
-            }
-            return CrearWavData(s, sr);
-        }, true);
-
-        // 6. Muerte Zombie: Gemido de agonía largo y gutural con caída dramática de frecuencia (115Hz a 36Hz)
-        AudioClip clipMuerteZombie = ObtenerOGenerarClip("Assets/Audio/sfx_muerte_zombie.wav", () => {
-            int sr = 44100;
-            float dur = 0.68f;
-            int n = (int)(sr * dur);
-            float[] s = new float[n];
-            for (int i = 0; i < n; i++)
-            {
-                float t = (float)i / sr;
-                float env = Mathf.Exp(-t * 2.8f);
-
-                // Caída de tono pronunciada de 115Hz hacia 36Hz
-                float tNorm = t / dur;
-                float freq = Mathf.Lerp(115f, 36f, Mathf.Pow(tNorm, 0.75f));
-
-                // Flutter rasposo que se ralentiza (de 28Hz a 10Hz) conforme expira
-                float flutterFreq = Mathf.Lerp(28f, 10f, tNorm);
-                float flutter = (Mathf.Sin(2f * Mathf.PI * flutterFreq * t) + 1f) * 0.5f;
-
-                float baseGroan = Mathf.Sin(2f * Mathf.PI * freq * t);
-                float subHarmonic = Mathf.Sin(2f * Mathf.PI * (freq * 0.5f) * t) * 0.35f;
-
-                // Estertor de muerte con ruido
-                float deathRattle = (Random.value * 2f - 1f) * flutter * 0.75f;
-
-                float voice = (baseGroan * 0.8f + subHarmonic + deathRattle) * env;
-                float sat = Mathf.Clamp(voice * 1.8f, -1.2f, 1.2f);
-                sat = sat - (sat * sat * sat) / 3f;
-
-                s[i] = sat * 0.95f;
-            }
-            return CrearWavData(s, sr);
-        }, true);
+        // 6. Muerte Zombie: Estertor largo con caída de tono (115Hz -> 38Hz) y vocal fry que se apaga
+        AudioClip clipMuerteZombie = ObtenerOGenerarClip("Assets/Audio/sfx_muerte_zombie.wav", () =>
+            CrearWavData(SintetizarGruñidoZombie(44100, 1.1f, 115f, 38f, 1.0f, 620f, 340f, 0.05f, 1.1f, 2), 44100), true);
 
         // 7. Daño Bryan: Jadeo / quejido seco
         AudioClip clipDañoBryan = ObtenerOGenerarClip("Assets/Audio/sfx_daño_bryan.wav", () => {

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ed2387fe8cc9ef34baaf540cb5fc2ba9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8928817646712783214
+    second: Logo_UAT_0
+  - first:
+      213: -1826893849953543430
+    second: Logo_UAT_1
+  - first:
+      213: -5544544575034367303
+    second: Logo_UAT_2
+  - first:
+      213: 5341864635037872331
+    second: Logo_UAT_3
+  - first:
+      213: 1901926634093033836
+    second: Logo_UAT_4
+  - first:
+      213: 459529174658332241
+    second: Logo_UAT_5
+  - first:
+      213: -6446163089110244354
+    second: Logo_UAT_6
+  - first:
+      213: -1283002239241644857
+    second: Logo_UAT_7
+  - first:
+      213: -4567436985660319621
+    second: Logo_UAT_8
+  - first:
+      213: 5943513535375885478
+    second: Logo_UAT_9
+  - first:
+      213: 4002023036125767564
+    second: Logo_UAT_10
+  - first:
+      213: 3622578736201078100
+    second: Logo_UAT_11
+  - first:
+      213: -5338338251427706292
+    second: Logo_UAT_12
+  - first:
+      213: 8690153908420375440
+    second: Logo_UAT_13
+  - first:
+      213: -6452630587768936820
+    second: Logo_UAT_14
+  - first:
+      213: 4162972049428631368
+    second: Logo_UAT_15
+  - first:
+      213: -1903835289314510512
+    second: Logo_UAT_16
+  - first:
+      213: 1970263872435474388
+    second: Logo_UAT_17
+  - first:
+      213: -8836987158130830987
+    second: Logo_UAT_18
+  - first:
+      213: 1867470659203111186
+    second: Logo_UAT_19
+  - first:
+      213: -1528274813497462604
+    second: Logo_UAT_20
+  - first:
+      213: 7684037498086224931
+    second: Logo_UAT_21
+  - first:
+      213: 242515173268945470
+    second: Logo_UAT_22
+  - first:
+      213: 7753428488966488802
+    second: Logo_UAT_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Logo_UAT_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 61
+        width: 644
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e610e80c75889eb70800000000000000
+      internalID: 8928817646712783214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa5c2709b195a6e0800000000000000
+      internalID: -1826893849953543430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 7
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2e1c3d512dd03b0800000000000000
+      internalID: -5544544575034367303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 7
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc077a9459d122a40800000000000000
+      internalID: 5341864635037872331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 7
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6938f56230056a10800000000000000
+      internalID: 1901926634093033836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15630738953906600800000000000000
+      internalID: 459529174658332241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 7
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3695dd2d0aa86a0800000000000000
+      internalID: -6446163089110244354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c498f3d24cd13ee0800000000000000
+      internalID: -1283002239241644857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 7
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b785cb7c2443d90c0800000000000000
+      internalID: -4567436985660319621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 7
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a44ec1021a9b7250800000000000000
+      internalID: 5943513535375885478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87e43b6fba0a8730800000000000000
+      internalID: 4002023036125767564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 7
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4551626da2cf54230800000000000000
+      internalID: 3622578736201078100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 7
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a85c0e4a96ae5b0800000000000000
+      internalID: -5338338251427706292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 7
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0937ed2ffe0a99870800000000000000
+      internalID: 8690153908420375440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 7
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86663dfaa6a376a0800000000000000
+      internalID: -6452630587768936820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_15
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fc218c509d5c930800000000000000
+      internalID: 4162972049428631368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_16
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 7
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0593e8d24e73495e0800000000000000
+      internalID: -1903835289314510512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_17
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 7
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df4d469d88c75b10800000000000000
+      internalID: 1970263872435474388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 6
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5715ce20007bc5580800000000000000
+      internalID: -8836987158130830987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_19
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 7
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21914469ba69ae910800000000000000
+      internalID: 1867470659203111186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_20
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 7
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0be4e772a7acae0800000000000000
+      internalID: -1528274813497462604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_21
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 7
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324f53a846f23aa60800000000000000
+      internalID: 7684037498086224931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_22
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 7
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a7653e3469d5300800000000000000
+      internalID: 242515173268945470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_UAT_23
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 7
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2cd3c9126b99b60800000000000000
+      internalID: 7753428488966488802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Logo_UAT_0: 8928817646712783214
+      Logo_UAT_1: -1826893849953543430
+      Logo_UAT_10: 4002023036125767564
+      Logo_UAT_11: 3622578736201078100
+      Logo_UAT_12: -5338338251427706292
+      Logo_UAT_13: 8690153908420375440
+      Logo_UAT_14: -6452630587768936820
+      Logo_UAT_15: 4162972049428631368
+      Logo_UAT_16: -1903835289314510512
+      Logo_UAT_17: 1970263872435474388
+      Logo_UAT_18: -8836987158130830987
+      Logo_UAT_19: 1867470659203111186
+      Logo_UAT_2: -5544544575034367303
+      Logo_UAT_20: -1528274813497462604
+      Logo_UAT_21: 7684037498086224931
+      Logo_UAT_22: 242515173268945470
+      Logo_UAT_23: 7753428488966488802
+      Logo_UAT_3: 5341864635037872331
+      Logo_UAT_4: 1901926634093033836
+      Logo_UAT_5: 459529174658332241
+      Logo_UAT_6: -6446163089110244354
+      Logo_UAT_7: -1283002239241644857
+      Logo_UAT_8: -4567436985660319621
+      Logo_UAT_9: 5943513535375885478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,6 +21,13 @@ public class CameraFollow : MonoBehaviour
     private float shakeTotalDuration = 0f;
     private float shakeCurrentIntensity = 0f;
 
+    // Congelado (Game Over / Resultados / Pausa)
+    private bool congelada = false;
+    private Vector3 posicionBase;      // posición SIN el offset del shake
+    private bool tienePosicionBase = false;
+
+    public bool Congelada => congelada;
+
     void Awake()
     {
         if (Instance == null)
@@ -48,8 +55,30 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
+    /// <summary>Detiene por completo la cámara (sin seguimiento ni sacudida). La usa la pantalla de resultados.</summary>
+    public void Congelar()
+    {
+        congelada = true;
+        DetenerShake();
+    }
+
+    public void Descongelar()
+    {
+        congelada = false;
+    }
+
+    void DetenerShake()
+    {
+        shakeTimer = 0f;
+        shakeCurrentIntensity = 0f;
+        if (tienePosicionBase) transform.position = posicionBase; // quita el desfase del último temblor
+    }
+
     public void Shake(float duracion, float intensidad)
     {
+        // Con el juego congelado (tiempo en 0) el shake nunca se descontaría: se ignora
+        if (congelada || Time.timeScale <= 0f) return;
+
         shakeTotalDuration = duracion;
         shakeTimer = duracion;
         shakeCurrentIntensity = Mathf.Max(shakeCurrentIntensity, intensidad);
@@ -58,6 +87,15 @@ public class CameraFollow : MonoBehaviour
     void LateUpdate()
     {
         if (target == null) return;
+        if (!tienePosicionBase) { posicionBase = transform.position; tienePosicionBase = true; }
+
+        // Juego congelado: la cámara no se mueve ni tiembla detrás del monitor de resultados / pausa
+        bool juegoTerminado = MercenariesManager.Instance != null && MercenariesManager.Instance.JuegoTerminado;
+        if (congelada || juegoTerminado || Time.timeScale <= 0f)
+        {
+            if (shakeTimer > 0f || shakeCurrentIntensity > 0f) DetenerShake();
+            return;
+        }
 
         // Posición a la que quiere ir la cámara
         Vector3 desiredPosition = target.position + offset;
@@ -76,8 +114,9 @@ public class CameraFollow : MonoBehaviour
             finalPosition = new Vector3(clampedX, clampedY, desiredPosition.z);
         }
 
-        // Movimiento suavizado hacia la posición objetivo
-        Vector3 smoothPos = Vector3.Lerp(transform.position, finalPosition, smoothSpeed);
+        // Movimiento suavizado hacia la posición objetivo (siempre desde la posición sin shake)
+        Vector3 smoothPos = Vector3.Lerp(posicionBase, finalPosition, smoothSpeed);
+        posicionBase = smoothPos;
 
         // Aplicar sacudida de cámara (Camera Shake)
         if (shakeTimer > 0f)

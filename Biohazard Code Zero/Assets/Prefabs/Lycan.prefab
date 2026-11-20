@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8200215644756820152}
   - component: {fileID: 379586355741768519}
   - component: {fileID: 2225683591063364875}
+  - component: {fileID: 2609143253287121912}
   m_Layer: 0
   m_Name: Lycan
   m_TagString: Enemy
@@ -120,7 +121,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -138,6 +139,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieEnemy
   speed: 2
   player: {fileID: 0}
+  distanciaDeteccion: 1.2
+  radioCuerpo: 0.35
+  capaObstaculos:
+    serializedVersion: 2
+    m_Bits: 256
+  velocidadGiro: 8
+  distanciaPreferida: 0
+  margenDistancia: 1.2
+  paramVelocidad: Velocidad
+  paramCaminando: Caminando
+  paramAtacar: Atacar
+  paramAturdido: Aturdido
+  animacionProcedural: 1
+  frecuenciaPaso: 9
+  intensidadPaso: 0.025
+  dibujarGizmos: 1
 --- !u!61 &8200215644756820152
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -197,12 +214,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   vidaMaxima: 4
+  esTocho: 0
+  multiplicadorPuntos: 1
   "colorDa\xF1o": {r: 1, g: 0, b: 0, a: 1}
   duracionFlash: 0.1
-  probabilidadDrop: 45
+  resistenciaKnockback: 1
+  duracionKnockback: 0.12
   prefabMunicion: {fileID: 4960866064368510429, guid: 00c2f32c772fcc7478caed55fd21a55d, type: 3}
   prefabCuracion: {fileID: 3985883928710397880, guid: 3e8d54e143b776847b7ca0cb96a86d36, type: 3}
-  prefabTiempo: {fileID: 8232295144024035880, guid: dcb29053687d3f94eb97c879543804f9, type: 3}
+  umbralPocaVida: 40
+  probabilidadHierbaPocaVida: 75
+  probabilidadMunicion: 100
 --- !u!114 &2225683591063364875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +239,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   "da\xF1oAtaque": 20
   tiempoEntreAtaques: 1.5
+  distanciaInicioAtaque: 0.35
+  alcanceGolpe: 0.75
+  tiempoAviso: 0.45
+  tiempoRecuperacion: 0.35
+  distanciaEstocada: 0.35
+  colorAviso: {r: 1, g: 0.92, b: 0.35, a: 1}
+  escalaAviso: 0.15
+  sonidoAviso: 1
+--- !u!95 &2609143253287121912
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665330972368322469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c121353833b2284da6ee77da368d0ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

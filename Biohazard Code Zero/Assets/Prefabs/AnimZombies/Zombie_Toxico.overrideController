@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombie_Toxico
+  m_Controller: {fileID: 9100000, guid: 1c121353833b2284da6ee77da368d0ea, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a739d717f0f54db42855df566a9ee345, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e40ef1f8d3fe51b49a6db751e64ef096, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 58fbdc17c26a4fd41bb27d46b658d100, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3fcf7f795a4b7e7449d387ca775d1334, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2853b19b5585abd4fa06a1de243d262a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 483de4811cfa8ed46b206106fd8225a6, type: 2}
